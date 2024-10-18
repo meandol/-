@@ -68,7 +68,7 @@ var APP_DATA = {
       "linkHotspots": [
         {
           "yaw": 0,
-          "pitch": 0,
+          "pitch": -0.004441126853475197,
           "rotation": 0,
           "target": "2---"
         },
@@ -130,6 +130,12 @@ var APP_DATA = {
           "pitch": 0.08174689154358283,
           "rotation": 0,
           "target": "3-"
+        },
+        {
+          "yaw": -1.395974408597045,
+          "pitch": 0.13420216342342783,
+          "rotation": 0,
+          "target": "4----"
         }
       ],
       "infoHotspots": [
@@ -144,6 +150,12 @@ var APP_DATA = {
           "pitch": -0.05087189672989645,
           "title": "피팅룸",
           "text": "옷을 갈아입고 거울을 볼 수 있는 공간입니다."
+        },
+        {
+          "yaw": -1.4511153980675573,
+          "pitch": -0.02527088113306064,
+          "title": "휴게 공간, 좌측 통로",
+          "text": "잠깐 앉아서 쉴 수 있는 공간, 매장 안 좌측 통로입니다."
         }
       ]
     },
@@ -189,6 +201,47 @@ var APP_DATA = {
           "pitch": -0.09631062463074613,
           "title": "매장 입구",
           "text": "매장 입구로 가는 길입니다.<div>바깥으로 나갈 수 있습니다.</div>"
+        }
+      ]
+    },
+    {
+      "id": "4----",
+      "name": "휴게 공간, 좌측 통로",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        }
+      ],
+      "faceSize": 1024,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 1.5157393473386422,
+          "pitch": 0.2481875160267819,
+          "rotation": 0,
+          "target": "2---"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": 1.5045494660277647,
+          "pitch": 0.1060259276862503,
+          "title": "매장 입구",
+          "text": "매장 밖으로 나갈 수 있는 입구입니다."
         }
       ]
     }
